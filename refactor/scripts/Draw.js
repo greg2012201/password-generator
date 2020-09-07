@@ -10,11 +10,11 @@ class Draw {
 
         console.log(this.getWords);
     }
-    giveMeRandomNumber() {
+    getRandomNumber() {
 
 
     }
-    giveMeRandomChar() {
+    getRandomChar() {
 
     }
 
