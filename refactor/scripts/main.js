@@ -3,13 +3,13 @@ const checkboxes = new Checkboxes();
 const inputs = new Inputs();
 const outputArea = new OutputArea();
 const clipboard = new Clipboard();
-const draw = new Draw();
+
 
 
 
 const init = () => {
-
-
+    const draw = new Draw(data.getNumbers(), data.getSepcialChars(), data.getWords());
+    draw.calculations(checkboxes.isNumber(), checkboxes.isSpecialChars())
 
 
 
