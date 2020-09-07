@@ -1,3 +1,13 @@
 class Draw {
+    constructor() {
+
+
+    }
+
+    calculations() {
+
+
+    }
+
 
 }

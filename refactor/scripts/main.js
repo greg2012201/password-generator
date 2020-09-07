@@ -9,10 +9,9 @@ const draw = new Draw();
 
 const init = () => {
 
-    console.log(checkboxes.isNumber());
-    console.log(checkboxes.isSpecialChars());
-    console.log(inputs.getInputValue());
-    console.log(data.getSepcialCharacters());
+
+
+
 
 }
 

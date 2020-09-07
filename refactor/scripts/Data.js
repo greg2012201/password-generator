@@ -8,7 +8,7 @@ class Data {
 
     }
 
-    getSepcialCharacters() {
+    getSepcialChars() {
 
         return this._inputSpecialCharacters = ['!', '$', '?', '%', '#', '.', '+', '=', '@'];
     }
