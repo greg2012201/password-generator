@@ -4,13 +4,13 @@ class Data {
         return this.words = ['coś', 'słOwo', 'pieRdoła', 'Alicja', 'dommieszkalny', 'poszedłemdokina', 'Wlazł', 'koteknapłotek', 'Szpital'];
     }
     getNumbers() {
-        this.numbers = ['1', '6', '1', '6', '0', '2', '8', '7', '9'];
+        return this.numbers = ['1', '6', '1', '6', '0', '2', '8', '7', '9'];
 
     }
 
     getSepcialCharacters() {
 
-        this._inputSpecialCharacters = ['!', '$', '?', '%', '#', '.', '+', '=', '@'];
+        return this._inputSpecialCharacters = ['!', '$', '?', '%', '#', '.', '+', '=', '@'];
     }
 
 }
