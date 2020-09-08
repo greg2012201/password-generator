@@ -20,7 +20,6 @@ class Draw {
         if (isNumber && isChar) {
             this.getChosenElements(_password, this.getNumbers);
             this.getChosenElements(_password, this.getSpecialChars);
-            // to trzeba przerobić w jedną funkcję na 2
         } else if (isNumber && !isChar) this.getChosenElements(_password, this.getNumbers);
         else if (isChar && !isNumber) this.getChosenElements(_password, this.getSpecialChars);
 
