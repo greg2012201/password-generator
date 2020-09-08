@@ -23,7 +23,6 @@ class Draw {
         } else if (isNumber && !isChar) this.getChosenElements(_password, this.getNumbers);
         else if (isChar && !isNumber) this.getChosenElements(_password, this.getSpecialChars);
 
-
         this.calculationsWithWords(_password);
 
     }
