@@ -5,4 +5,8 @@ class OutputArea {
 
 
     }
+    renderPassword(password) {
+
+
+    }
 }

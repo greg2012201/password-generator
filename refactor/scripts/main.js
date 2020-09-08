@@ -8,8 +8,10 @@ const clipboard = new Clipboard();
 
 
 const init = () => {
-    const draw = new Draw(data.getNumbers(), data.getSepcialChars(), data.getWords(), inputs.getInputValue());
+    const draw = new Draw(data.getNumbers(), data.getSepcialChars(), data.getWords(), inputs.getInputValue()); // zastanowić się nad jakąś nazwą zamienną za inputs
     draw.input(checkboxes.isNumber(), checkboxes.isSpecialChars())
+    const password = draw.output();
+    console.log(password);
 
 
 
