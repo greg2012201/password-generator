@@ -10,10 +10,10 @@ const clipboard = new Clipboard();
 const init = () => {
     const draw = new Draw(data.getNumbers(), data.getSepcialChars(), data.getWords(), inputs.getInputValue()); // zastanowić się nad jakąś nazwą zamienną za inputs
     draw.input(checkboxes.isNumber(), checkboxes.isSpecialChars())
-    print()
+    print(draw)
 
 }
-const print = () => {
+const print = (draw) => {
     const password = draw.output();
     outputArea.renderPassword(password);
 

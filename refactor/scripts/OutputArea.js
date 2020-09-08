@@ -6,7 +6,7 @@ class OutputArea {
 
     }
     renderPassword(password) {
-
+        this.textArea.textContent = password;
 
     }
 }
