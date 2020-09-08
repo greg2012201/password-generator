@@ -9,7 +9,7 @@ const clipboard = new Clipboard();
 
 const init = () => {
     const draw = new Draw(data.getNumbers(), data.getSepcialChars(), data.getWords(), inputs.getInputValue());
-    draw.calculationsWithNumbersAndSpecialChars(checkboxes.isNumber(), checkboxes.isSpecialChars())
+    draw.input(checkboxes.isNumber(), checkboxes.isSpecialChars())
 
 
 

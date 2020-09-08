@@ -4,26 +4,19 @@ class Draw {
         this.getSpecialChars = getSpecialChars;
         this.getWords = getWords;
         this.getInputValue = getInputValue;
-        /*  let _input = []; */
-    }
-
-    input() { // może przejść przez to z isNumber i isChar
 
     }
 
+    input(isNumber, isChar) { // może przejść przez to z isNumber i isChar
 
 
-    getChosenElements(_input, elements /* numbers, chars */ ) {
-
-        const slicedElements = elements.slice(Math.floor(Math.random() * elements.length - 1), elements.length);
-        const singleElement = slicedElements.shift();
-        _input.unshift(singleElement);
-        // osobna metoda musi wyjść w sensie sliced żeby nie kopiować kodu
-
-    }
-
-    calculationsWithNumbersAndSpecialChars(isNumber, isChar) {
         let _input = [];
+        this.calculationsWithNumbersAndSpecialChars(_input, isNumber, isChar)
+    }
+
+
+    calculationsWithNumbersAndSpecialChars(_input, isNumber, isChar) {
+
         if (isNumber && isChar) {
             this.getChosenElements(_input, this.getNumbers);
             this.getChosenElements(_input, this.getSpecialChars);
@@ -35,6 +28,18 @@ class Draw {
         this.calculationsWithWords(_input);
 
     }
+
+
+    getChosenElements(_input, elements /* numbers, chars */ ) {
+
+        const slicedElements = elements.slice(Math.floor(Math.random() * elements.length - 1), elements.length);
+        const singleElement = slicedElements.shift();
+        _input.unshift(singleElement);
+        // osobna metoda musi wyjść w sensie sliced żeby nie kopiować kodu
+
+    }
+
+
 
     calculationsWithWords(_input) {
 
@@ -49,11 +54,8 @@ class Draw {
 
     output(_input) {
 
-
-
-
         console.log(_input = _input.join('').split('').slice(0, this.getInputValue).join(''));
-        /*  _input = _input.join('').split('').slice(0, this.getInputValue).join(''); */
+
 
     }
 
