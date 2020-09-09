@@ -2,11 +2,11 @@ class Checkboxes {
 
     isNumber() {
 
-        return document.querySelector('.numberChecker').checked;
+        return document.querySelector('.number-checker').checked;
 
     }
     isSpecialChars() {
-        return document.querySelector('.charsChecker').checked;
+        return document.querySelector('.chars-checker').checked;
 
     }
 }

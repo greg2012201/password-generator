@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0 0;
 }
 
@@ -207,4 +207,145 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.72);
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+} */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+.mainSpan {
+    position: relative;
+    margin: 60% auto;
+    width: 307px;
+    height: 31px;
+    border: solid 1px #bbbebb;
+    background-color: #F6FAF6;
+    border-radius: 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.textArea {
+
+    width: 30%;
+    margin: 1.5% 0 auto 5%;
+}
+
+button {
+
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.copy {
+    position: absolute;
+    top: 0%;
+    left: 83%;
+    height: 100%;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: solid 2px #BBBEBB;
+    background-color: #F6FAF6;
+    color: #BBBB;
+    transition: .2s;
+
+}
+
+button.copy:hover {
+    color: grey;
+}
+
+.interface-wrapper {
+    position: absolute;
+    bottom: 40%;
+    width: 100vw;
+
+}
+
+.interface {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.number-checker {
+    position: absolute;
+    right: 10%;
+    top: 0%;
+
+}
+
+
+.char-bar {
+    position: absolute;
+    width: 138px;
+    right: 0%;
+    bottom: 0%;
+}
+
+input {
+
+    height: 17px;
+    width: 17px;
+}
+
+.number-of-letters {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.numberChecker {
+
+    left: 0;
+    top: 0;
+}
+
+.numbers {
+    position: absolute;
+    left: 10%
+}
+
+.chars-checker {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.characters {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+
+.generate {
+
+    position: absolute;
+    left: 32%;
+    top: 80%;
+    background-color: #0075ff;
+    font-size: 20px;
 }

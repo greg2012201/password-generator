@@ -19,5 +19,6 @@ const print = (draw) => {
 
 }
 
+// pomyśleć nad stworzeniem popupów
 
 document.querySelector('.generate').addEventListener('click', init);
