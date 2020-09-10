@@ -223,6 +223,7 @@ body {
 body {
 
     font-family: "Roboto", sans-serif;
+
 }
 
 .title {
@@ -237,7 +238,7 @@ body {
 .mainSpan {
     position: relative;
     margin: 30vh auto;
-    width: 278px;
+    width: 270px;
     height: 31px;
     border: solid 1px #bbbebb;
     background-color: #F6FAF6;
@@ -299,6 +300,7 @@ button.copy:hover {
 /* div.interface>* {
     position: absolute;
 } */
+
 
 .number-checker {
     position: absolute;
@@ -414,7 +416,83 @@ input {
         bottom: -5%;
     }
 
+    .generate {
 
+        width: 184px;
+        padding: 0 10px;
+        font-size: 20px;
+        line-height: 52px;
+        text-transform: uppercase;
+
+
+    }
+
+
+
+
+}
+
+@media (min-width:375px) {
+
+    .title {
+
+        font-size: 28px;
+    }
+
+
+
+    .mainSpan {
+        width: 335px;
+        height: 40px;
+    }
+
+    .copy {
+        font-size: 17px;
+    }
+
+    .interface-wrapper {
+
+        height: 100px;
+    }
+
+    .interface {
+
+        font-size: 21px;
+    }
+
+
+    .number-of-letters {
+
+        top: -7%;
+
+
+    }
+
+    .number-checker {
+
+        top: -7%;
+
+    }
+
+    .numbers {
+
+        top: -7%;
+
+    }
+
+    .textArea {
+        font-size: 22px;
+
+    }
+
+    .characters {
+        bottom: -7%;
+    }
+
+    .generate {
+
+        font-size: 20px;
+    }
 
 
 }
@@ -427,14 +505,10 @@ input {
     }
 
     .mainSpan {
-        position: relative;
-        margin: 30vh auto;
+
         width: 347px;
         height: 41px;
-        border: solid 1px #bbbebb;
-        background-color: #F6FAF6;
-        border-radius: 35px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 
     }
 
@@ -466,7 +540,6 @@ input {
     .numbers {
 
         top: -10%;
-        left: 7%;
 
     }
 
@@ -477,7 +550,6 @@ input {
 
     .characters {
         bottom: -10%;
-        left: 7%;
     }
 
     .generate {
