@@ -227,7 +227,7 @@ body {
 
 .title {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 0;
     width: 100vw;
     text-align: center;
@@ -237,7 +237,7 @@ body {
 .mainSpan {
     position: relative;
     margin: 30vh auto;
-    width: 307px;
+    width: 278px;
     height: 31px;
     border: solid 1px #bbbebb;
     background-color: #F6FAF6;
@@ -250,6 +250,8 @@ body {
 
     width: 30%;
     margin: 1.5% 0 auto 5%;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 button {
@@ -288,10 +290,15 @@ button.copy:hover {
 
 .interface {
     position: relative;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     height: 50px;
+    font-size: 16px;
 }
+
+/* div.interface>* {
+    position: absolute;
+} */
 
 .number-checker {
     position: absolute;
@@ -303,13 +310,13 @@ button.copy:hover {
 
 .char-bar {
     position: absolute;
-    width: 138px;
+    width: 45%;
     right: 0%;
     bottom: 0%;
 }
 
 input {
-
+    position: absolute;
     height: 17px;
     width: 17px;
 }
@@ -318,12 +325,14 @@ input {
     position: absolute;
     top: 0;
     right: 0;
+
 }
 
-.numberChecker {
-
-    left: 0;
+.number-checker {
+    position: absolute;
+    right: 8%;
     top: 0;
+
 }
 
 .numbers {
@@ -352,11 +361,8 @@ input {
 
 .generate {
     display: block;
-    /* position: absolute; */
-    /* left: 27vw; */
-    bottom: 15vh;
+    bottom: 10vh;
     margin: 0 auto;
-
     width: 174px;
     padding: 0 5px;
     border-radius: 6px;
@@ -364,6 +370,124 @@ input {
     font-size: 20px;
     line-height: 42px;
     text-transform: uppercase;
+    transition: .2s;
+
+}
+
+/* .generate:hover {
+
+    background-color: #24BDFF;
+} */
+
+@media (min-width:360px) {
+    .interface {
+
+        font-size: 19px;
+    }
+
+
+    .number-of-letters {
+
+        top: -5%;
+
+
+    }
+
+    .number-checker {
+
+        top: -5%;
+
+    }
+
+    .numbers {
+
+        top: -5%;
+
+    }
+
+    .textArea {
+        font-size: 18px;
+
+    }
+
+    .characters {
+        bottom: -5%;
+    }
+
+
+
+
+}
+
+@media (min-width:411px) {
+
+    .title {
+
+        font-size: 26px;
+    }
+
+    .mainSpan {
+        position: relative;
+        margin: 30vh auto;
+        width: 347px;
+        height: 41px;
+        border: solid 1px #bbbebb;
+        background-color: #F6FAF6;
+        border-radius: 35px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+
+    .copy {
+        font-size: 17px;
+
+    }
+
+
+    .interface {
+
+        font-size: 23px;
+    }
+
+
+    .number-of-letters {
+
+        top: -10%;
+
+
+    }
+
+    .number-checker {
+
+        top: -10%;
+
+    }
+
+    .numbers {
+
+        top: -10%;
+        left: 7%;
+
+    }
+
+    .textArea {
+        font-size: 22px;
+
+    }
+
+    .characters {
+        bottom: -10%;
+        left: 7%;
+    }
+
+    .generate {
+
+        width: 184px;
+        padding: 0 10px;
+        line-height: 52px;
+
+
+    }
 
 
 }
