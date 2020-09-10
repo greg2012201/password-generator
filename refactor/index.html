@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Generator haseł</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>Generator haseł</title>
+    </head>
 
-<body>
-    <p class="title">GENERATOR HASEŁ</p>
-    <div class="mainSpan">
-        <p class="textArea"></p><button class="copy">Kopiuj</button>
-    </div>
-    <div class="interface-wrapper">
-        <div class="interface">
-            <div class="checkboxes">
-                <input type="checkbox" class="numberChecker" checked><span class="numbers">Liczby</span>
-                <input type="checkbox" class="chars-checker" checked><span class="characters">Znaki specjalne</span>
-            </div>
-            <div class="inputs">
-                <span class="number-checker">Liczba znaków</span>
-                <span class="number-of-letters">15</span>
-                <input type="range" class="char-bar" min="10" max="20" value="15"></div>
+    <body>
+        <p class="title">GENERATOR HASEŁ</p>
+        <div class="mainSpan">
+            <p class="textArea"></p><button class="copy">Kopiuj</button>
         </div>
-    </div>
+        <div class="interface-wrapper">
+            <div class="interface">
+                <div class="checkboxes">
+                    <input type="checkbox" class="numberChecker" checked><span
+                        class="numbers">Liczby</span>
+                    <input type="checkbox" class="chars-checker" checked><span
+                        class="characters">Znaki specjalne</span>
+                </div>
+                <div class="inputs">
+                    <span class="number-checker">Liczba znaków</span>
+                    <span class="number-of-letters">15</span>
+                    <input type="range" class="char-bar" min="10" max="20"
+                        value="15"></div>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="generate">Generuj Hasło</button></div>
 
-    <button class="generate">Generuj Hasło</button>
 
+        <script src="./scripts/Data.js"></script>
+        <script src="./scripts/Checkboxes.js"></script>
+        <script src="./scripts/Inputs.js"></script>
+        <script src="./scripts/OutputArea.js"></script>
+        <script src="./scripts/Draw.js"></script>
+        <script src="./scripts/Clipboard.js"></script>
+        <script src="./scripts/main.js"></script>
 
-    <script src="./scripts/Data.js"></script>
-    <script src="./scripts/Checkboxes.js"></script>
-    <script src="./scripts/Inputs.js"></script>
-    <script src="./scripts/OutputArea.js"></script>
-    <script src="./scripts/Draw.js"></script>
-    <script src="./scripts/Clipboard.js"></script>
-    <script src="./scripts/main.js"></script>
-
-</body>
+    </body>
 
 </html>
