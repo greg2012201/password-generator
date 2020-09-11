@@ -397,10 +397,18 @@ button {
 
 
 @media (orientation: landscape) {
+    .title {
+        top: 5%;
+    }
+
+    .mainSpan {
+        margin: 25vh auto;
+    }
+
 
     .interface-wrapper {
 
-        bottom: 12%;
+        bottom: 6vh;
 
     }
 
@@ -409,7 +417,12 @@ button {
     }
 
     .btn-container {
-        bottom: 10vh;
+        bottom: 2vh;
+    }
+
+    .generate {
+        line-height: 15px;
+        font-size: 15px;
     }
 }
 
@@ -447,6 +460,7 @@ button {
     .characters {
         bottom: -5%;
     }
+
 
     .generate {
 
