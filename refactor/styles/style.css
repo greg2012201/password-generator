@@ -222,7 +222,10 @@ body {
 
 body {
 
+    max-width: 1024px;
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
+
 
 }
 
@@ -249,7 +252,7 @@ body {
 
 .textArea {
 
-    width: 30%;
+
     margin: 1.5% 0 auto 5%;
     font-weight: 500;
     font-size: 17px;
@@ -277,14 +280,13 @@ button {
 
 }
 
-button.copy:hover {
-    color: grey;
-}
+
 
 .interface-wrapper {
     position: absolute;
     bottom: 40%;
     width: 100vw;
+    max-width: 1024px;
 
 
 }
@@ -303,6 +305,8 @@ button.copy:hover {
 
 
 .number-checker {
+
+
     position: absolute;
     right: 10%;
     top: 0%;
@@ -310,15 +314,17 @@ button.copy:hover {
 }
 
 
+
 .char-bar {
     position: absolute;
-    width: 45%;
-    right: 0%;
+    width: 40%;
+    right: -1.5%;
     bottom: 0%;
 }
 
-input {
-    position: absolute;
+
+.inputs {
+
     height: 17px;
     width: 17px;
 }
@@ -326,31 +332,39 @@ input {
 .number-of-letters {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -1%;
 
 }
 
 .number-checker {
+
     position: absolute;
-    right: 8%;
+    right: 7%;
+
     top: 0;
 
 }
 
 .numbers {
     position: absolute;
-    left: 10%
+    left: 7%
 }
 
 .chars-checker {
     position: absolute;
-    left: 0;
+    left: -1%;
     bottom: 0;
+}
+
+.numberChecker {
+    position: absolute;
+    left: -1%;
+    top: 0;
 }
 
 .characters {
     position: absolute;
-    left: 10%;
+    left: 7%;
     bottom: 0;
 }
 
@@ -380,6 +394,24 @@ input {
 
     background-color: #24BDFF;
 } */
+
+
+@media (orientation: landscape) {
+
+    .interface-wrapper {
+
+        bottom: 20%;
+
+    }
+
+    .char-bar {
+        width: 27.5%;
+    }
+
+    .btn-container {
+        bottom: 10vh;
+    }
+}
 
 @media (min-width:360px) {
     .interface {
@@ -561,5 +593,126 @@ input {
 
     }
 
+
+}
+
+@media (min-width:768px) {
+
+    .title {
+
+        font-size: 36px;
+    }
+
+    .mainSpan {
+
+        width: 505px;
+        height: 58px;
+
+
+    }
+
+    .textArea {
+        font-size: 30px;
+
+    }
+
+    .copy {
+        font-size: 25px;
+
+    }
+
+
+    .interface {
+
+        font-size: 25px;
+    }
+
+
+    .numberChecker {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+
+    }
+
+    .chars-checker {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .number-of-letters {
+
+        top: -15%;
+
+
+    }
+
+    .number-checker {
+
+        top: -15%;
+
+    }
+
+    .numbers {
+
+        top: -15%;
+
+    }
+
+
+
+    .characters {
+        bottom: -15%;
+    }
+
+    .char-bar {
+        width: 32%;
+    }
+
+    .generate {
+
+        width: 290px;
+        padding: 0 40px;
+        line-height: 62px;
+        font-size: 25px;
+
+
+    }
+
+
+}
+
+@media (min-width:1024px) {
+
+
+    .interface-wrapper {
+        bottom: 35vh;
+    }
+
+    .interface {
+        width: 70%;
+
+
+    }
+
+
+
+    .char-bar {
+        width: 31.5%;
+    }
+
+
+    .generate:hover {
+        background-color: #3b8ae6;
+        color: rgb(34, 33, 33);
+
+    }
+
+    button.copy:hover {
+        color: grey;
+
+    }
 
 }
