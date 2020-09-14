@@ -238,9 +238,9 @@ body {
     font-size: 20px;
 }
 
-.mainSpan {
+.main-span {
     position: relative;
-    margin: 30vh auto;
+    margin: 30% auto;
     width: 270px;
     height: 31px;
     border: solid 1px #bbbebb;
@@ -250,7 +250,7 @@ body {
 
 }
 
-.textArea {
+.text-area {
 
 
     margin: 1.5% 0 auto 5%;
@@ -356,7 +356,7 @@ button {
     bottom: 0;
 }
 
-.numberChecker {
+.number-of-char {
     position: absolute;
     left: -1%;
     top: 0;
@@ -401,7 +401,7 @@ button {
         top: 5%;
     }
 
-    .mainSpan {
+    .mai-span {
         margin: 25vh auto;
     }
 
@@ -452,7 +452,7 @@ button {
 
     }
 
-    .textArea {
+    .text-area {
         font-size: 18px;
 
     }
@@ -487,7 +487,7 @@ button {
 
 
 
-    .mainSpan {
+    .main-span {
         width: 335px;
         height: 40px;
     }
@@ -526,7 +526,7 @@ button {
 
     }
 
-    .textArea {
+    .text-area {
         font-size: 22px;
 
     }
@@ -550,7 +550,7 @@ button {
         font-size: 26px;
     }
 
-    .mainSpan {
+    .main-span {
 
         width: 347px;
         height: 41px;
@@ -589,7 +589,7 @@ button {
 
     }
 
-    .textArea {
+    .text-area {
         font-size: 22px;
 
     }
@@ -617,7 +617,7 @@ button {
         font-size: 36px;
     }
 
-    .mainSpan {
+    .main-span {
 
         width: 505px;
         height: 58px;
@@ -625,7 +625,7 @@ button {
 
     }
 
-    .textArea {
+    .text-area {
         font-size: 30px;
 
     }
@@ -642,7 +642,7 @@ button {
     }
 
 
-    .numberChecker {
+    .number-of-char {
         position: absolute;
         left: 0;
         top: 0;

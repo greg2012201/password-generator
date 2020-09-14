@@ -1,7 +1,7 @@
 class OutputArea {
     constructor() {
 
-        this.textArea = document.querySelector('.textArea');
+        this.textArea = document.querySelector('.text-area');
 
 
     }
