@@ -1,7 +1,7 @@
 class Clipboard extends OutputArea {
     constructor() {
         super()
-        this.copyBtn = document.querySelector('.copy').addEventListener('click', this.copyPasswordToClipboard.bind(this)); // tutaj addEventListiner dodać
+        this.copyBtn = document.querySelector('.copy').addEventListener('click', this.copyPasswordToClipboard.bind(this));
 
 
     }

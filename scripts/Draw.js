@@ -7,7 +7,7 @@ class Draw {
 
     }
 
-    input(isNumber, isChar) { // może przejść przez to z isNumber i isChar
+    input(isNumber, isChar) {
 
 
         let _password = [];
@@ -27,12 +27,12 @@ class Draw {
 
     }
 
-    getChosenElements(_password, elements /* numbers, chars */ ) {
+    getChosenElements(_password, elements) {
 
         const slicedElements = elements.slice(Math.floor(Math.random() * elements.length - 1), elements.length);
         const singleElement = slicedElements.shift();
         _password.unshift(singleElement);
-        // osobna metoda musi wyjść w sensie sliced żeby nie kopiować kodu
+
 
     }
 
